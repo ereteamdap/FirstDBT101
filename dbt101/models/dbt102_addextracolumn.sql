@@ -3,7 +3,7 @@
 
 with source_data as (
 
-    select key,date,new_tested,new_deceased,now() as now from quarantine_covid_  limit 100;
+    select key,date,new_tested,new_deceased,now() as now from dev_quarantine_covid_  limit 100
 
 )
 

@@ -1,11 +1,11 @@
 DBT101:
+  target: dev
   outputs:
-
     dev:
       type: postgres
       host: localhost
       user: postgres
-      password: 198822
+      password: '198822'
       port: 5432
       dbname: epidemiology_dev
       schema: public
@@ -13,12 +13,11 @@ DBT101:
       keepalives_idle: 0
       connect_timeout: 10
       retries: 2
-
     prod:
       type: postgres
       host: localhost
       user: postgres
-      password: 198822
+      password: '198822'
       port: 5432
       dbname: epidemiology_prod
       schema: public
